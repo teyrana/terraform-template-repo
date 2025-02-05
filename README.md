@@ -13,8 +13,6 @@ The purpose of this repository is to simplify the setup and management of Terraf
 
 ### Terraform
 
-The `terraform/` folder contains two subfolders: `environments/` and `modules/`.
-
 The `environments/` folder is where one can define different environments (e.g., development, staging, production) with their respective Terraform configurations. Each environment acts as a Terraform root module.
 
 The `modules/` folder provides a dedicated space for organizing reusable Terraform modules that can be shared across environments. Each module acts as a Terraform child module.
@@ -28,14 +26,10 @@ The `.github/workflows/` folder contains a set of automated workflows to streaml
 - Destroy infrastructure
 - Generate documentation
 
-![ci](./assets/images/ci.png)
-
-![deploy](./assets/images/deploy.png)
-
-## Contributing
-
-Information about contributing to this project can be found [here](/CONTRIBUTING.md).
 
 ## License
 
-Released under [MIT](/LICENSE) by [@christosgalano](https://github.com/christosgalano).
+Released under [MIT](/LICENSE)
+
+- Originally by [@christosgalano](https://github.com/christosgalano).
+- Modified by @teyrana
